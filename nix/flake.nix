@@ -16,8 +16,9 @@
           packages = with pkgs; [
             cachix
             lorri
+            nil
             niv
-            nixfmt-classic
+            nixpkgs-fmt
             statix
             vulnix
             haskellPackages.dhall-nix
